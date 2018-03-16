@@ -1,0 +1,74 @@
+/*Aquí modifico algunas propiedades del container del bootstrap */
+.container{
+	border-radius:20px 20px 20px 20px;/*Modifico el borde del contendor */
+	border: 1px solid gray;/*Sele aplica al borde un tamaño de 4px y color verde */
+	margin-top: 20px;/*Se le coloca un margin en la altura */
+	background-color: white;/*Se le da un color blanco */
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+
+
+}
+h1{
+	text-align: center;/*Cetramos la información*/
+}
+/*Cuando el cursor este sobre el menú */
+.nav-link:hover{
+	/*background-color: #D8D8D8;*/
+  background-color: #21937c !important;
+	border-radius: 10px 10px 10px 10px;
+	border: 2px solid black;
+	color:black;
+}
+/*Cambiamos color al fondo del body y además ponemos la barra de desplazamiento vertical*/
+body{
+	overflow-y: visible;
+	overflow: scroll;
+	overflow-x:hidden;
+}
+/*Esto es para las tablas*/
+.table > thead > tr > td.info,
+.table > tbody > tr > td.info,
+.table > tfoot > tr > td.info,
+.table > thead > tr > th.info,
+.table > tbody > tr > th.info,
+.table > tfoot > tr > th.info,
+.table > thead > tr.info > td,
+.table > tbody > tr.info > td,
+.table > tfoot > tr.info > td,
+.table > thead > tr.info > th,
+.table > tbody > tr.info > th,
+.table > tfoot > tr.info > th {
+  background-color: #d9edf7;
+}
+
+
+
+.govea{
+	font-family: sans-serif;
+position: absolute;
+left: 100px;
+bottom: 5px;
+}
+
+
+@media (max-width: 600px) {
+  .govea {
+		font-family: sans-serif;
+		position: relative;
+		left: 70px;
+		bottom: 30px;
+
+  }
+}
+
+
+
+@media (max-width: 600px) {
+.perro2{
+	position: absolute;
+	font-size: 14px;
+	font-family: sans-serif;
+	bottom: : 20px;
+}
+}

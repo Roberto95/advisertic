@@ -1,0 +1,51 @@
+body{
+        background-image: url(imagenes/tic.jpg);
+        background-size: cover;
+        color: white;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+      }
+form{
+background: rgba(37, 186, 57, 0.58);
+color: white;
+padding: 40px;
+margin-top: 80px;
+padding-bottom: 60px;
+/*box-shadow: 10px 10px 5px rgba(6, 1, 1, 0.43)*/
+background-color: rgba(  23, 165, 137 ,0.5);
+
+}
+ h1{
+text-align: center;
+}
+
+.btn{
+width: 100%;
+border-radius: 0px;
+color:white;
+      }
+ .form-control{
+border-radius: 0px;
+ background-color: rgba(23, 3, 3, 0.48);
+color: white;
+ border-radius:1px solid #291212
+}
+
+.img{
+  border-radius: 10%;
+  position: relative;
+}
+
+.name{
+  position: relative;
+  margin-left: 280px;
+  font-family: sans-serif;
+  font-size: 20px;
+  bottom: 40px;
+}
+
+.acomodar{
+  position: relative;
+  bottom: 40px;
+}
